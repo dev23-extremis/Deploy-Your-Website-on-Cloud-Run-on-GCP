@@ -115,7 +115,3 @@ echo "${GREEN}${BOLD}╔══════════════════�
 echo "${GREEN}${BOLD}             Lab Completed Successfully!          ${RESET}"
 echo "${GREEN}${BOLD}╚════════════════════════════════════════════════════════╝${RESET}"
 echo
-echo "${RED}${BOLD}🙏 Thank you for following Dr. Abhishek's tutorial!${RESET}"
-echo "${YELLOW}${BOLD}📺 Subscribe for more GCP content:${RESET}"
-echo "${BLUE}https://www.youtube.com/@drabhishek.5460${RESET}"
-echo
