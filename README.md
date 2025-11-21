@@ -1,7 +1,3 @@
-Here is your **edited and polished README file**, including the **proper code block** for your command:
-
----
-
 # Deploy Your Website on Cloud Run on GCP
 
 Deploy your website on **Cloud Run** using **Google Cloud Platform (GCP)**.
@@ -34,7 +30,8 @@ This lab teaches you how to:
 ## © Credit
 
 **No copyright intended.**
-All rights and credits for the original content belong to **Google Cloud** (Google Cloud Skills Boost).
+All rights and credits for the original content belong to [Google Cloud Skills Boost](https://www.cloudskillsboost.google/)
+.
 DM for credit or removal requests. 🙏
 
 ---
