@@ -1,28 +1,48 @@
-# Deploy-Your-Website-on-Cloud-Run-on-GCP
-Deploy Your Website on Cloud Run on Goggle Cloud Platform
+Here is your **edited and polished README file**, including the **proper code block** for your command:
 
-You can use Cloud Run's fully managed PaaS solution or your own Google Kubernetes Engine (GKE) clusters to implement "serverless" development in containers.  In this lab, you will run the latter situation.
+---
 
- The exercises are arranged to mirror the typical experience of a cloud developer:
+# Deploy Your Website on Cloud Run on GCP
 
+Deploy your website on **Cloud Run** using **Google Cloud Platform (GCP)**.
 
- From your application, create a Docker container.
- Install the container on Cloud Run.
- Change the webpage
- Release a new version with no downtime.
- What you'll discover
- This lab will teach you how to:
+Cloud Run allows you to deploy applications using a fully managed serverless platform. You can use Cloud Run directly or deploy containers on Google Kubernetes Engine (GKE).
+In this lab, you’ll follow the Cloud Run path.
 
- Use Cloud Build to create a Docker image, then upload it to the Artifact Registry.
- Install Docker images on Cloud Run
- Oversee Cloud Run installations
- Configure an application's endpoint on Cloud Run
+## 📘 What You Will Do
 
-©Credit
-DM for credit or removal request (no copyright intended) ©All rights and credits for the original content belong to Google Cloud Google Cloud Skill Boost website 🙏
+The steps mirror a real cloud developer’s workflow:
 
- Run the following command in the cloud shell: 
- 
- curl -LO https://raw.githubusercontent.com/dev23-extremis/Deploy-Your-Website-on-Cloud-Run-on-GCP/main/devang.sh
+1. Create a Docker container from your application.
+2. Deploy the container to Cloud Run.
+3. Modify the webpage.
+4. Deploy a new version with zero downtime.
+
+---
+
+## 🎯 What You Will Learn
+
+This lab teaches you how to:
+
+* Use **Cloud Build** to create a Docker image and upload it to **Artifact Registry**.
+* Deploy Docker images to **Cloud Run**.
+* Manage Cloud Run services.
+* Configure an application's endpoint on Cloud Run.
+
+---
+
+## © Credit
+
+**No copyright intended.**
+All rights and credits for the original content belong to **Google Cloud** (Google Cloud Skills Boost).
+DM for credit or removal requests. 🙏
+
+---
+
+## ▶️ Run the following command in Cloud Shell:
+
+```bash
+curl -LO https://raw.githubusercontent.com/dev23-extremis/Deploy-Your-Website-on-Cloud-Run-on-GCP/main/devang.sh
 sudo chmod +x devang.sh
 ./devang.sh
+```
